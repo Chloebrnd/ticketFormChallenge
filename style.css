@@ -9,7 +9,7 @@ body {
     background-position: center;
     background-position: no-repeat;
     position: relative;
-    font-family: Arial, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -32,9 +32,16 @@ body {
     z-index: 1;
 }
 
-h1, h2 {
+h1 {
     color: #FFFFFF;
     text-align: center;
+    font-weight: 800;
+}
+
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
 }
 
 form {
