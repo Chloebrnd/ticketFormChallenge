@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Conf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="assets/pattern-squiggly-line-bottom-desktop.svg" alt="ruban SVG" class="svg-bottom-left">
+    <img src="assets/pattern-squiggly-line-top.svg" alt="ruban SVG" class="svg-top-right">
+   
+    <h1>Your Journey to codins Conf 2025 Starts Here!</h1>
+    <h2>Secure your spot at next year's biggest coding conference.</h2>
+   
+    <form action="traitement.php" method="POST">
+       <label for="Avatar">Upload Avatar</label>
+       <input type="file" id="avatar" name="avatar" accept="image/*" required>
+
+       <label for="Full_name">Full Name</label>
+       <input type="text" id="full_name" name="full_name" required>
+
+       <label for="Email">Email Address</label>
+       <input type="email" id="email" name="email" required>
+
+       <label for="GitHub_username">GitHub Username</label>
+       <input type="text" id="github_username" name="github_username" required>
+
+       <button type="submit">Generate My Tickets</button>
+    </form>
+</body>
+</html>
