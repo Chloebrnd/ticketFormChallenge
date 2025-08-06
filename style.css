@@ -4,14 +4,10 @@
     padding: 0;
 }
 
-html {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-header {
-    text-align: center;
-    padding: 20px;
+html,
+body {
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -21,9 +17,18 @@ body {
     background-position: no-repeat;
     position: relative;
     font-family: 'Inconsolata', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
 }
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
 svg {
     max-width: 80%;
 }
@@ -46,6 +51,11 @@ svg {
     z-index: 1;
 }
 
+section {
+    position: relative;
+    z-index: 2;
+}
+
 .titles>h1,
 h2 {
     color: #FFFFFF;
@@ -60,9 +70,8 @@ h2 {
     font-weight: 300;
 }
 
-section {
-    position: relative;
-    z-index: 2;
+.sr-only {
+    display: none;
 }
 
 form {
@@ -111,4 +120,3 @@ button[type="submit"]:hover {
         max-width: 570px;
     }
 }
-
